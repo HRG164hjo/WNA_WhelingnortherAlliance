@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HediffGiverSetDef>
+        <defName>WNA_HediffGiver_WNThan</defName>
+        <hediffGivers>
+            <li Class="WNA.WNA_HediffGiverRandom">
+                <hediff>WNA_Inhuman</hediff>
+                <mtbDays>0</mtbDays>
+            </li>
+        </hediffGivers>
+    </HediffGiverSetDef>
+    
+    <HediffGiverSetDef>
+        <defName>WNA_HediffGiver_Human</defName>
+        <hediffGivers>
+            <li Class="WNA.WNA_HediffGiverRandom" MayRequire="Ludeon.Rimworld.Anomaly">
+                <hediff>WNA_DeathRefusal</hediff>
+                <mtbDays>0</mtbDays>
+            </li>
+        </hediffGivers>
+    </HediffGiverSetDef>
+
+    <HediffGiverSetDef>
+        <defName>WNA_HediffGiver_Beast</defName>
+        <hediffGivers>
+            <li Class="WNA.WNA_HediffGiverRandom">
+                <hediff>WNA_InAnimal</hediff>
+                <mtbDays>0</mtbDays>
+            </li>
+        </hediffGivers>
+    </HediffGiverSetDef>
+
+</Defs>
