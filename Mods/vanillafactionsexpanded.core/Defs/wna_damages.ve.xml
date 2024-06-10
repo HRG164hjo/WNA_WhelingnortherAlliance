@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <DamageDef>
+		<defName>WNA_Swallowing</defName>
+		<label>swallow whole</label>
+		<workerClass>AnimalBehaviours.DamageWorker_SwallowWhole</workerClass>
+		<externalViolence>false</externalViolence>
+		<deathMessage>{0} has been eaten.</deathMessage>
+        <hediff>WNA_CastDamage</hediff>
+		<impactSoundType>Slice</impactSoundType>
+	</DamageDef>
+    <ToolCapacityDef>
+        <defName>WNA_Swallowing</defName>
+        <label>swallow whole</label>
+    </ToolCapacityDef>
+    <ManeuverDef>
+        <defName>WNA_Swallowing</defName>
+        <requiredCapacity>WNA_Swallowing</requiredCapacity>
+        <verb>
+            <verbClass>Verb_MeleeAttackDamage</verbClass>
+            <meleeDamageDef>WNA_Swallowing</meleeDamageDef>
+        </verb>
+        <logEntryDef>MeleeAttack</logEntryDef>
+        <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+        <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+        <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+        <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+    </ManeuverDef>
+    
+
+</Defs>
