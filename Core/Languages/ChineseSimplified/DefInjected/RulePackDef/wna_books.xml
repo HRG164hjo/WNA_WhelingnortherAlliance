@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WNA_BookEssayNamer.rulePack.rulesStrings.0>title->文集</WNA_BookEssayNamer.rulePack.rulesStrings.0>
+  <WNA_BookEssayNamer2.rulePack.rulesStrings.0>desc->这本书包含一系列文章, 包括学术论文, 会议记录和访谈. 这些文章经过精心挑选, 来自各个时代, 涵盖各个领域, 其内容的质量均属上乘.</WNA_BookEssayNamer2.rulePack.rulesStrings.0>
+  <WNA_BookPoetryNamer.rulePack.rulesStrings.0>title->诗集</WNA_BookPoetryNamer.rulePack.rulesStrings.0>
+  <WNA_BookPoetryNamer2.rulePack.rulesStrings.0>desc->这本书包含了一系列优美的文学作品, 既有辉煌华丽震撼人心的长篇大作, 也有简短精巧令人回味的短诗. 这些作品来自各个时代, 被巧妙地整合进一本书中, 每一篇作品都是一时一地的名篇.</WNA_BookPoetryNamer2.rulePack.rulesStrings.0>
+  <WNA_BookTainedNamer.rulePack.rulesStrings.0>title->被污染的研究</WNA_BookTainedNamer.rulePack.rulesStrings.0>
+
+  <WNA_BookTainedNamer2.rulePack.rulesStrings.0>desc->或许这本书曾经是世界上最杰出的研究的合集, 或许这本书里仍然有一些有用可用的信息, 但因为某些未知的原因, 这本书已经被污染, 被一些凶险的诅咒缠上. 如果有人看这本书, 那他很快就会发疯.</WNA_BookTainedNamer2.rulePack.rulesStrings.0>
+  <WNA_BookTainedNamer2.rulePack.rulesStrings.1>desc->These blurred words tells a story.</WNA_BookTainedNamer2.rulePack.rulesStrings.1>
+
+
+</LanguageData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="WNA_WNThan" or defName="WNA_Human" or @Name="WNA_AnimalRaceBase"]/statBases</xpath>
+        <value>
+            <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">60</Mashed_Ashlands_AshResistance>
+            
+            <HeatNullNaniteResistance MayRequireAnyOf="blackmarket420.kraltechindustries,blackmarket420.kraltechindustrieslite">60</HeatNullNaniteResistance>
+            <HeatNullNaniteEnvironmentResistance MayRequireAnyOf="blackmarket420.kraltechindustries,blackmarket420.kraltechindustrieslite">60</HeatNullNaniteEnvironmentResistance>
+            <ColdNullNaniteResistance MayRequireAnyOf="blackmarket420.kraltechindustries,blackmarket420.kraltechindustrieslite">60</ColdNullNaniteResistance>
+            <ColdNullNaniteEnvironmentResistance MayRequireAnyOf="blackmarket420.kraltechindustries,blackmarket420.kraltechindustrieslite">60</ColdNullNaniteEnvironmentResistance>
+            <RadiationResistance MayRequireAnyOf="blackmarket420.kraltechindustries,blackmarket420.kraltechindustrieslite">60</RadiationResistance>
+            <RadiationEnvironmentResistance MayRequireAnyOf="blackmarket420.kraltechindustries,blackmarket420.kraltechindustrieslite">60</RadiationEnvironmentResistance>
+            <AntiOrgToxinResistance MayRequireAnyOf="blackmarket420.kraltechindustries,blackmarket420.kraltechindustrieslite">60</AntiOrgToxinResistance>
+            <AntiOrgToxinEnvironmentResistance MayRequireAnyOf="blackmarket420.kraltechindustries,blackmarket420.kraltechindustrieslite">60</AntiOrgToxinEnvironmentResistance>
+            <RageVirusResistance MayRequireAnyOf="blackmarket420.kraltechindustries,blackmarket420.kraltechindustrieslite">60</RageVirusResistance>
+            <RageVirusEnvironmentResistance MayRequireAnyOf="blackmarket420.kraltechindustries,blackmarket420.kraltechindustrieslite">60</RageVirusEnvironmentResistance>
+            
+            <NecrotionResistance MayRequire="blackmarket420.taofc">60</NecrotionResistance>
+            <NecrotionEnvironmentResistance MayRequire="blackmarket420.taofc">60</NecrotionEnvironmentResistance>
+
+            <Radiation MayRequire="dubwise.rimatomics">0</Radiation>
+            
+            <ThirstRateMultiplier MayRequireAnyOf="dubwise.dubsbadhygiene,dubwise.dubsbadhygiene.lite">0</ThirstRateMultiplier>
+            <BladderRateMultiplier MayRequireAnyOf="dubwise.dubsbadhygiene,dubwise.dubsbadhygiene.lite">0</BladderRateMultiplier>
+        </value>
+    </Operation>
+</Patch>

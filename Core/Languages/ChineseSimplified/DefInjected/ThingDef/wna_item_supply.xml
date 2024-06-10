@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WNA_Meal.label>威灵会餐包</WNA_Meal.label>
+  <WNA_Meal.description>尽管看上去平平无奇, 这个餐包确实有非常惊人的内容. 威灵会不怎么消耗食物, 但他们的厨师也确实有水平.</WNA_Meal.description>
+
+  <WNA_Medikit.label>威灵会医药包</WNA_Medikit.label>
+  <WNA_Medikit.description>尽管看上去平平无奇, 这个医疗包确实包含一些非常好的东西, 比如一剂治愈机械液.</WNA_Medikit.description>
+  <WNA_Medikit.comps.1.useLabel>使用 {0_label}</WNA_Medikit.comps.1.useLabel>
+
+  <WNA_Madiewine.label>威灵会简制酒</WNA_Madiewine.label>
+  <WNA_Madiewine.description>一种用大米制成的酒精饮料, 酒精含量低, 具有独特宜人的风味. 它的瓶子也经过精心设计, 适合给人来一下狠的. 酿造这种酒的技术几乎不为外人所知.</WNA_Madiewine.description>
+  <WNA_Madiewine.tools.0.label>瓶身</WNA_Madiewine.tools.0.label>
+  <WNA_Madiewine.ingestible.ingestCommandString>喝 {0}</WNA_Madiewine.ingestible.ingestCommandString>
+  <WNA_Madiewine.ingestible.ingestReportString>正在喝 {0}.</WNA_Madiewine.ingestible.ingestReportString>
+
+  <WNA_FlowerTea.label>威灵会花茶</WNA_FlowerTea.label>
+  <WNA_FlowerTea.description>由经精心挑选和加工的花瓣制成的茶, 最初因李亚·西塔利亚——威灵会的创始人和初代圣徒而得名. 这种茶能帮助人获得平静, 在某种程度上也能防止人们陷入暴力冲突.</WNA_FlowerTea.description>
+  <WNA_FlowerTea.ingestible.ingestCommandString>喝 {0}</WNA_FlowerTea.ingestible.ingestCommandString>
+  <WNA_FlowerTea.ingestible.ingestReportString>正在喝 {0}.</WNA_FlowerTea.ingestible.ingestReportString>
+
+  <WNA_Dessert.label>威灵会甜点</WNA_Dessert.label>
+  <WNA_Dessert.description>一小盒色彩缤纷的小糖球, 可以为人提供充足的糖分. 用于制作这种甜品的技术鲜为外人所知.</WNA_Dessert.description>
+
+
+</LanguageData>
