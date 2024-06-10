@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+	    <xpath>Defs/TraderKindDef[defName="WNA_Trader_Settlement" or defName="WNA_Trader_Orbital"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>PsychicAmplifier</thingDef>
+                <price>Cheap</price>
+                <countRange>200000~300000</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>BroadshieldCore</thingDef>
+                <price>Cheap</price>
+                <countRange>200000~300000</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>AnimusStone</thingDef>
+                <price>Cheap</price>
+                <countRange>200000~300000</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>WNA_SeedAnima</thingDef>
+                <price>Cheap</price>
+                <countRange>100000~150000</countRange>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>
