@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- not sure will this work properly -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="WNA_IronCurtain"]/makeImmuneTo</xpath>
+        <value>
+			<li MayRequire="ludeon.rimworld.anomaly">DarkPsychicShock</li>
+			<li MayRequire="ludeon.rimworld.anomaly">DarknessExposure</li>
+			<li MayRequire="ludeon.rimworld.anomaly">CubeInterest</li>
+			<li MayRequire="ludeon.rimworld.anomaly">CubeWithdrawal</li>
+			<li MayRequire="ludeon.rimworld.anomaly">MetalhorrorImplant</li>
+            
+			<li MayRequire="brrainz.zombieland">ContaminationEffect</li>
+
+            <li MayRequire="blackmarket420.taofc">Necronoid_Infection</li>
+            <li MayRequire="blackmarket420.taofc">Necronoid_Incubation</li>
+            
+            <li MayRequire="dubwise.rimatomics">FatalRad</li>
+            <li MayRequire="dubwise.rimatomics">RimatomicsRadiation</li>
+        </value>
+    </Operation>
+</Patch>

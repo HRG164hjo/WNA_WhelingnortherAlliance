@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.5>
+	    <li>Core</li>
+	    <li IfModActive="ludeon.rimworld.royalty">Royalty</li>
+	    <li IfModActive="ludeon.rimworld.ideology">Ideology</li>
+	    <li IfModActive="ludeon.rimworld.biotech">Biotech</li>
+	    <li IfModActive="ludeon.rimworld.anomaly">Anomaly</li>
+		
+	    <li IfModActive="3hstltd.foods.instanoodles">Mods/3hstltd.foods.instanoodles</li>
+	    <li IfModActive="blackmarket420.pandoraframework">Mods/420.pandoraframework</li>
+	    <li IfModActive="oskarpotocki.vanillafactionsexpanded.core">Mods/vanillafactionsexpanded.core</li>
+	    <li IfModActive="pathfinding.framework">Mods/pathfinding.framework</li>
+	    <li IfModActive="sarg.rimbees">Mods/sarg.rimbees</li>
+	    <li IfModActive="sirmashedpotato.ashlands">Mods/sirmashedpotato.ashlands</li>
+	    <li IfModActive="vanillaexpanded.vplantsemore">Mods/vanillaexpanded.vplantsemore</li>
+	</v1.5>
+</loadFolders>

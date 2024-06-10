@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!--<Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="WNA_IronCurtain"]/damageFactors</xpath>
+        <value>
+            <ExecutionCut>0</ExecutionCut>
+            <Frostbite>0</Frostbite>
+            <Stun>0</Stun>
+            <EMP>0</EMP>
+        </value>
+    </Operation>-->
+</Patch>

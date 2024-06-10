@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+	    <xpath>Defs/FactionDef[defName="WNA_FactionWNA"]</xpath>
+        <value>
+            <disallowedRaidAgeRestrictions>
+                <li>Children</li>
+            </disallowedRaidAgeRestrictions>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+	    <xpath>Defs/GeneDef[defName="WNA_StillWater"]/disablesNeeds</xpath>
+        <value>
+            <li>Deathrest</li>
+            <li>KillThirst</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+	    <xpath>Defs/ThoughtDef[defName="EnvironmentDark"]/nullifyingGenes</xpath>
+        <value>
+            <li>WNA_ShadowRing</li>
+            <li>WNA_StillWater</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+	    <xpath>Defs/ThingDef[defName="WNA_WNThan"]/comps</xpath>
+        <value>
+            <li Class="CompProperties_Effecter">
+                <effecterDef>ApocrionAttached</effecterDef>
+            </li>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+	    <xpath>Defs/TraderKindDef[defName="WNA_Trader_Settlement" or defName="WNA_Trader_Orbital"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Mechlink</thingDef>
+                <price>Cheap</price>
+                <countRange>200000~300000</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ArchiteCapsule</thingDef>
+                <price>Cheap</price>
+                <countRange>300000~500000</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>DeathrestCapacitySerum</thingDef>
+                <price>Cheap</price>
+                <countRange>200000~300000</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Genepack</thingDef>
+                <price>Cheap</price>
+                <countRange>10~12</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>WNA_SeedPolux</thingDef>
+                <price>Cheap</price>
+                <countRange>100000~150000</countRange>
+            </li>
+        </value>
+    </Operation>
+    
+    <!--<Operation Class="PatchOperationConditional">
+	    <xpath>Defs/ThoughtDef[defName="NeedJoy" or defName="ApparelDamaged" or defName="WrongApparelGender" or defName="AteRawFood" or defName="AteKibble" or defName="AteCorpse" or defName="MissingTongue" or defName="ToxicFallout" or defName="AteWithoutTable" or defName="SleepDisturbed"]/nullifyingGenes</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThoughtDef[defName="NeedJoy" or defName="ApparelDamaged" or defName="WrongApparelGender" or defName="AteRawFood" or defName="AteKibble" or defName="AteCorpse" or defName="MissingTongue" or defName="ToxicFallout" or defName="AteWithoutTable" or defName="SleepDisturbed"]/nullifyingGenes</xpath>
+            <value>
+                <li>WNA_StillWater</li>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThoughtDef[defName="NeedJoy" or defName="ApparelDamaged" or defName="WrongApparelGender" or defName="AteRawFood" or defName="AteKibble" or defName="AteCorpse" or defName="MissingTongue" or defName="ToxicFallout" or defName="AteWithoutTable" or defName="SleepDisturbed"]</xpath>
+            <value>
+                <nullifyingGenes>
+                    <li>WNA_StillWater</li>
+                </nullifyingGenes>
+            </value>
+        </nomatch>
+    </Operation>-->
+    
+</Patch>

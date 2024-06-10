@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef>
+        <defName>WNA_InMechanoid</defName>
+        <label>automation creation</label>
+        <hediffClass>HediffWithComps</hediffClass>
+        <description>This mechanoid is designed or enhanced by some unique techniques of WNA.</description>
+        <defaultLabelColor>(0,0,0)</defaultLabelColor>
+        <makesAlert>false</makesAlert>
+        <everCurableByItem>false</everCurableByItem>
+        <isBad>false</isBad>
+        <keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
+        <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+        <disablesNeeds>
+            <li>MechEnergy</li>
+        </disablesNeeds>
+        <stages>
+            <li>
+                <statFactors>
+                    <AimingDelayFactor>0</AimingDelayFactor>
+                    <BandwidthCost>0</BandwidthCost>
+                    <ButcheryFleshSpeed>5</ButcheryFleshSpeed>
+                    <ButcheryMechanoidSpeed>5</ButcheryMechanoidSpeed>
+                    <CleaningSpeed>5</CleaningSpeed>
+                    <ControlTakingTime>0.05</ControlTakingTime>
+                    <FoodPoisonChance>0</FoodPoisonChance>
+                    <GeneralLaborSpeed>5</GeneralLaborSpeed>
+                    <IncomingDamageFactor>0</IncomingDamageFactor>
+                    <MechEnergyLossPerHP>0</MechEnergyLossPerHP>
+                    <MedicalTendSpeed>5</MedicalTendSpeed>
+                    <MedicalOperationSpeed>5</MedicalOperationSpeed>
+                    <MoveSpeed>5</MoveSpeed>
+                    <RangedCooldownFactor>0.05</RangedCooldownFactor>
+                    <WorkSpeedGlobal>5</WorkSpeedGlobal>
+                </statFactors>
+                <statOffsets>
+                    <CarryingCapacity>5000</CarryingCapacity>
+                    <EMPResistance>5</EMPResistance>
+                    <EnergyShieldRechargeRate>50</EnergyShieldRechargeRate>
+                    <EnergyShieldEnergyMax>50</EnergyShieldEnergyMax>
+                </statOffsets>
+            </li>
+        </stages>
+		<modExtensions>
+			<li Class="PathfindingFramework.MovementExtension" MayRequire="pathfinding.framework">
+				<movementDef>WNA_Movement</movementDef>
+			</li>
+		</modExtensions>
+    </HediffDef>
+</Defs>
