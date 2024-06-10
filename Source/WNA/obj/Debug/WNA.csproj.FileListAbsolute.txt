@@ -1,6 +1,0 @@
-E:\ProgramFiles\Steam\steamapps\common\RimWorld\Mods\Proj_WhelingnortherAlliance\Source\WNA\bin\Debug\WNA.dll
-E:\ProgramFiles\Steam\steamapps\common\RimWorld\Mods\Proj_WhelingnortherAlliance\Source\WNA\bin\Debug\WNA.pdb
-E:\ProgramFiles\Steam\steamapps\common\RimWorld\Mods\Proj_WhelingnortherAlliance\Source\WNA\obj\Debug\WNA.csproj.AssemblyReference.cache
-E:\ProgramFiles\Steam\steamapps\common\RimWorld\Mods\Proj_WhelingnortherAlliance\Source\WNA\obj\Debug\WNA.csproj.CoreCompileInputs.cache
-E:\ProgramFiles\Steam\steamapps\common\RimWorld\Mods\Proj_WhelingnortherAlliance\Source\WNA\obj\Debug\WNA.dll
-E:\ProgramFiles\Steam\steamapps\common\RimWorld\Mods\Proj_WhelingnortherAlliance\Source\WNA\obj\Debug\WNA.pdb
